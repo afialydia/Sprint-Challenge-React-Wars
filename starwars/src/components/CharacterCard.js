@@ -10,9 +10,18 @@ height:250px;
 border-radius: 12px;
 border: 3px solid rgb(208,196,182, 0.3);
 text-align:center;
-background-image: linear-gradient(to bottom right,rgb(246,170,84),rgb(208,136,10, .03));
-color:rgb(164,87,48);
+background-image: linear-gradient(to bottom right,rgb(246,170,84),rgb(166,190,212));
 
+color:rgb(164,87,48);
+font-family: 'Manjari', sans-serif;
+
+
+
+`;
+
+const StarName = styled.h2`
+font-size:1.5rem;
+font-family: 'Geostar', cursive;
 `;
 
 const CharacterCard= props =>{
@@ -20,7 +29,7 @@ const CharacterCard= props =>{
     return(
 
         <Container key ={props.index}>
-                <h1>{props.name}</h1>
+                <StarName>{props.name}</StarName>
 <p>                Height: {props.height}
  </p><p>           Weight: {props.mass}
 </p>
