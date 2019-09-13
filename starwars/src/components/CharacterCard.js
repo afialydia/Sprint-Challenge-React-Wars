@@ -5,8 +5,8 @@ const Container = styled.div`
 display:flex;
 flex-direction:column;
 margin: .5%;
-width:250px;
-height:250px;
+width:225px;
+height:225px;
 border-radius: 12px;
 border: 3px solid rgb(208,196,182, 0.3);
 text-align:center;
