@@ -1,5 +1,12 @@
 import React from 'react';
+import CharacterInfo from "./components/CharacterInfo";
 import './App.css';
+import styled from "styled-components";
+
+const StarName = styled.h2`
+font-family: 'Geostar', cursive;
+color: rgb(17,60,120);
+`;
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -11,7 +18,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">React Wars</h1>
+      <StarName>React Wars</StarName>
+
+      <CharacterInfo />
     </div>
   );
 }
